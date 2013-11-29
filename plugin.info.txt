@@ -1,0 +1,7 @@
+base   dontfeedtemplates
+author Cilyan Olowen
+email  gaknar@gmail.com
+date   2013-11-29
+name   Don't Feed Templates
+desc   Filter out template pages from namespace list feeds (enhances plugin TemplatePageName)
+url    https://www.dokuwiki.org/plugin:dontfeedtemplates
