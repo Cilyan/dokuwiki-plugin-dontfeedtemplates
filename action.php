@@ -44,7 +44,7 @@ class action_plugin_dontfeedtemplates extends DokuWiki_Action_Plugin {
      * @param Doku_Event_Handler $controller DokuWiki's event controller object
      * @return void
      */
-    public function register(Doku_Event_Handler &$controller) {
+    public function register(Doku_Event_Handler $controller) {
         if ($this->active) {
             $controller->register_hook(
                 'FEED_ITEM_ADD', 'BEFORE',
